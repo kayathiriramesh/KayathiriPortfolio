@@ -7,6 +7,7 @@ import skills from "../assets/icons/skills.svg";
 import js from "../assets/icons/javascript.svg";
 import css from "../assets/icons/css.svg";
 import html from "../assets/icons/html.svg";
+
 import bootstrap from "../assets/icons/bootstrap.svg";
 import jquery from "../assets/icons/jquery.svg";
 import react from "../assets/icons/react.svg";

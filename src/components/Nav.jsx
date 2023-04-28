@@ -12,7 +12,7 @@ import contactsvg from "../assets/icons/contact.svg";
 import githubsvg from "../assets/icons/github.svg";
 import linkedinsvg from "../assets/icons/linkedin.svg";
 import mailsvg from "../assets/icons/mail.svg";
-import resume from "../assets/melissataylor_resume_2023.pdf";
+import resume from "../assets/resume.pdf";
 
 // Mobile Burger Menu Styles
 var styles = {
@@ -168,14 +168,14 @@ function Navbar({ view, setView }) {
             </div>
             {/* Resume Download */}
             <div>
-              <a
-                href={resume}
-                download="mel-resume"
-                className=" mobile-resume btn btn-primary btn-sm active text-center"
-                role="button"
-              >
-                Download Resume
-              </a>
+            <a
+        className="border border-slate-50 text-slate-50 p-3 font-bold text-sm rounded w-2/3 mx-auto my-0 text-center mt-20 hidden transition-all duration-500  md:block hover:resumehover"
+        href={resume}
+        target="_blank"
+      >
+        Open Resume
+      </a>
+
             </div>
           </div>
 

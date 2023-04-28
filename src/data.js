@@ -14,7 +14,7 @@ export default [
         city: "Virudhunagar",
         country: "India",
       },
-      resumedownload: "../src/assets/melissataylor_resume_2023.pdf",
+      resumedownload: "../src/assets/resume.pdf",
       social: [
         {
           name: "linkedin",

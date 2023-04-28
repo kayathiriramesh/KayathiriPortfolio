@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "./Nav";
 import headshot from "../assets/images/pic.png";
-import resume from "../assets/melissataylor_resume_2023.pdf";
+import resume from "../assets/resume.pdf";
 // SVG Import
 import linkedinsvg from "../assets/icons/linkedin.svg";
 import githubsvg from "../assets/icons/github.svg";
@@ -32,9 +32,9 @@ function Header(props) {
       <a
         className="border border-slate-50 text-slate-50 p-3 font-bold text-sm rounded w-2/3 mx-auto my-0 text-center mt-20 hidden transition-all duration-500  md:block hover:resumehover"
         href={resume}
-        download="mel-resume"
+        target="_blank"
       >
-        Download Resume
+        Open Resume
       </a>
 
       {/* Contact Links */}

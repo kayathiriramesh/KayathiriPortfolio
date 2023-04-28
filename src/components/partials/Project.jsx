@@ -3,8 +3,8 @@ import Stack from "./Stack";
 // Icons/Logos
 import carbooking from "../../assets/images/car-booking.png";
 import MoneyManager from "../../assets/images/money-manager.png";
+import Pizza from "../../assets/images/pizza.png";
 import MovieTicketing from "../../assets/images/movie-ticket.png";
-import SocialMedia from "../../assets/images/social-media.png";
 import zodiac from "../../assets/images/zodiac_quest.png";
 import ghlogo from "../../assets/icons/github.svg";
 import streamline from "../../assets/images/streamline.png";
@@ -30,7 +30,7 @@ const projects = [
     backend:"https://github.com/kayathiriramesh/money-manager-backend"
   },
   {
-    title: "Movie-ticket booking",
+    title: "Movie-Ticketing",
     img:  MovieTicketing,
     desc: "A livestream platform that hosts creator streams - with integrated ticketing.",
     //stack: ["React", "Tailwind", "Express", "MangoDB"],
@@ -39,13 +39,13 @@ const projects = [
     backend:"https://github.com/kayathiriramesh/movie-ticket-booking"
   },
   {
-    title: "social-Media-Management",
-    img: SocialMedia,
-    desc: "A social network with engagement incentives built around a simple media management.",
+    title: "Pizza-delivery-App",
+    img:  Pizza,
+    desc: "A livestream platform that hosts creator streams - with integrated ticketing",
     //stack: ["React", "Tailwind", "Express", "MangoDB"],
-    link: "https://visionary-panda-f49f97.netlify.app/",
-    frontend: "https://github.com/kayathiriramesh/social-media-management-tool-frontend",
-    backend:"https://github.com/kayathiriramesh/social-media-management-tool-backend"
+    link: "https://marvelous-twilight-364e0e.netlify.app/",
+    frontend: "https://github.com/kayathiriramesh/pizzaapp-frontend",
+    backend:"https://github.com/kayathiriramesh/pizzaapp-backend"
   }
 ];
 
