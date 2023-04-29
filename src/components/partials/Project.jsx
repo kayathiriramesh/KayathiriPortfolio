@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Pizza-delivery-App",
     img:  Pizza,
-    desc: "A livestream platform that hosts creator streams - with integrated ticketing",
+    desc: "A livestream platform that hosts creator streams - with integrated pizza delivery",
     //stack: ["React", "Tailwind", "Express", "MangoDB"],
     link: "https://marvelous-twilight-364e0e.netlify.app/",
     frontend: "https://github.com/kayathiriramesh/pizzaapp-frontend",
