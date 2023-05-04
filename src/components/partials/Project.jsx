@@ -1,13 +1,11 @@
 import React from "react";
-import Stack from "./Stack";
 // Icons/Logos
 import carbooking from "../../assets/images/car-booking.png";
 import MoneyManager from "../../assets/images/money-manager.png";
 import Pizza from "../../assets/images/pizza.png";
 import MovieTicketing from "../../assets/images/movie-ticket.png";
-import zodiac from "../../assets/images/zodiac_quest.png";
 import ghlogo from "../../assets/icons/github.svg";
-import streamline from "../../assets/images/streamline.png";
+
 
 // The projects array contains project objects which are then each mapped onto a component which is added to the page.
 const projects = [
